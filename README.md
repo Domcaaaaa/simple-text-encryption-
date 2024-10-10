@@ -8,8 +8,6 @@ This project implements a simple substitution cipher using Python. The program e
 - [Setup and Usage](#setup-and-usage)
 - [Example](#example)
 - [Notes](#notes)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Overview
 A substitution cipher replaces each character in the plaintext message with a corresponding character from a shuffled set. The same shuffled set (key) is used to decrypt the cipher text back to the original message. This simple project demonstrates the concept by using all printable ASCII characters.
@@ -66,6 +64,3 @@ original msg: Hello, World!
 ## Notes
 - The same `key` used to encrypt must be retained to decrypt the message. If the `key` changes, the decryption will not produce the correct output.
 - The cipher implemented here is not secure for practical purposes. It's a simple demonstration and lacks the complexity of modern encryption algorithms.
-
-## Contributing
-Contributions are welcome! If you find any issues or have suggestions for improvements, feel free to submit a pull request.
